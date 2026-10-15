@@ -1,0 +1,605 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bramic Motors </title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+    
+<!-- NAVIGATION BAR -->
+<header class="navbar">
+    <a href="#home" class="logo" aria-label="Bramic Motors Home">
+        <span class="logo-car">BRAMIC</span>
+        <span class="logo-blue">MOTORS</span>
+    </a>
+
+    <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links"
+        type="button">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav class="nav-links" id="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#our-work" class="nav-link">Our Work</a>
+        <a href="#booking" class="nav-link">Book Now</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#contact" class="nav-link nav-contact">Contact Us</a>
+    </nav>
+</header>
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="hero-label">PROFESSIONAL AUTOMOTIVE CARE</p>
+   
+            <h1>
+                Engineering Diagnosis.
+                <span>Precise Repair.</span>
+                Trusted Results.
+            </h1>
+
+            <p class="hero-description">
+                Expert vehicle diagnostics, auto electrical repairs,
+                engine servicing and hybrid vehicle solutions.
+                We help keep your vehicle running at its best.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#services" class="btn-primary">
+                    Explore Our Services
+                </a>
+
+                <a href="#contact" class="btn-secondary">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="IMAGES/pure s 1.jpeg"
+                alt="Vehicle inside a professional automotive workshop">
+        </div>
+
+    </section>
+
+    <!-- Service section -->
+    
+
+<section class="services" id="services">
+
+    <div class="services-heading">
+        <p class="section-label">WHAT WE DO</p>
+        <h2>Our Automotive Services</h2>
+        <p>
+            Reliable automotive solutions to keep your vehicle
+            safe, efficient and performing at its best.
+        </p>
+    </div>
+
+    <div class="services-container">
+
+        <!-- Service 1 -->
+        <div class="service-card">
+            <div class="service-icon">01</div>
+            <h3>Advanced Computer Diagnosis & Auto Electrical</h3>
+            <p>
+                We detect the real problem with OBD2 & live data check engine, 
+                wiring faults, sensors, no-start, dashboard errors. No guesswork.
+            </p>
+        
+            <button type="button" class="service-book-button" data-service="Computer Diagnosis & Auto Electrical">Book This Service</button>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+            <div class="service-icon">02</div>
+            <h3>Engine Repair, Repair & Complete Overhaul</h3>
+            <p>
+                From minor service to full rebuild for Toyota, Nissan, Mazda, Subaru,
+                 Honda. We restore power, stop oil burning & overheating.
+            </p>
+        
+            <button type="button" class="service-book-button" data-service="Engine Repair & Overhaul">
+                Book This Service
+            </button>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+            <div class="service-icon">03</div>
+            <h3>. Hybrid Battery Service & EV Support</h3>
+            <p>
+                Specialists in Prius, Aqua, Axio Hybrid, Fit Hybrid. 
+                Battery testing, cell replacement, balancing, 
+                hybrid system faults.
+            </p>
+        
+            <button type="button" class="service-book-button" data-service="Hybrid Battery & EV Support">
+                Book This Service
+            </button>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+            <div class="service-icon">04</div>
+            <h3> Gearbox & Transmission Service</h3>
+            <p>
+                Automatic & manual - CVT service, 
+                gear delay, jerking, ATF change,
+                 gearbox overhaul.
+            </p>
+        
+            <button type="button" class="service-book-button" data-service="Gearbox & Transmission">
+                Book This Service
+            </button>
+        </div>
+
+        
+        <!-- Service 5-->
+        <div class="service-card">
+            <div class="service-icon">05</div>
+            <h3>Brake System & Suspension Engineering</h3>
+            <p>
+                Brakes, shocks, bushes, tie-rods,
+                 ball joints, alignment checks.
+                  For safety and smooth Kenyan roads.
+            </p>
+        
+            <button type="button" class="service-book-button" data-service="Brakes & Suspension">
+                Book This Service
+
+            </button>
+        </div>
+
+        <!-- Service 6-->
+        <div class="service-card">
+            <div class="service-icon">06</div>
+            <h3> ECU Programming, Key Programming & Coding</h3>
+            <p>
+                ECU reset, immobilizer, new key programming, 
+                computer coding and module setup
+            </p>
+        
+            <button type="button" class="service-book-button" data-service="ECU & Key Programming">Book This Service</button>
+        </div>
+
+        <!-- Service 7-->
+        <div class="service-card">
+            <div class="service-icon">07</div>
+            <h3>Air Condition (AC) Repair & Gas Refill</h3>
+            <p>
+                AC not cooling? We do leak test, 
+                compressor repair, gas refill and 
+                cabin filter service.
+            </p>
+        
+            <button type="button" class="service-book-button" data-service="Air Conditioning Repair">Book This Service</button>
+        </div>
+
+         <!-- Service 8-->
+        <div class="service-card">
+            <div class="service-icon">08</div>
+            <h3>Major & Minor Service (Preventive Maintenance)</h3>
+            <p>
+                Oil change, filters, spark plugs, coolant, brake fluid 
+                using genuine parts. Keep your car new.
+            </p>
+        
+            <button type="button" class="service-book-button" data-service="Major & Minor Servicing">
+                Book This Service
+            </button>
+        </div>
+
+         <!-- Service 9-->
+        <div class="service-card">
+            <div class="service-icon">09</div>
+            <h3>Bodywork, Welding & Fabrication </h3>
+
+            <p>
+                Accident repair support, chassis welding,
+                 exhaust fabrication, custom metal 
+                 work by qualified engineers.
+            </p>
+        
+            <button type="button" class="service-book-button" data-service="Bodywork, Welding & Fabrication">
+                Book This Service
+            </button>
+        </div>
+
+         <!-- Service 10-->
+        <div class="service-card">
+            <div class="service-icon">10</div>
+            <h3>Mobile Rescue & On-Site Emergency Service</h3>
+            <p>
+                Stuck on the road? We come to you in Nairobi & environs. 
+                Call/WhatsApp Bramic Motors for quick rescue.
+            </p>
+        
+            <button type="button" class="service-book-button" data-service="Mobile Rescue & Emergency Help">
+                Book This Service
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Our work images --> 
+
+
+<section class="our-work" id="our-work">
+
+    <div class="work-heading">
+        <p class="section-label">OUR WORK</p>
+        <h2>Precision in Every Repair</h2>
+        <p>
+            A look at the automotive services and technical
+            solutions we provide to our customers.
+        </p>
+    </div>
+
+    <div class="work-grid">
+
+        <div class="work-card">
+            <img src="IMAGES/service 1.jpeg"
+                 alt="Vehicle computer diagnostics">
+            <div class="work-info">
+                <h3>Computer Diagnostics</h3>
+                <p>Finding faults with precision.</p>
+            </div>
+        </div>
+
+        <div class="work-card">
+            <img src="IMAGES/service 2.jpeg"
+                 alt="Automotive engine repair">
+            <div class="work-info">
+                <h3>Engine Repair</h3>
+                <p>Professional engine servicing.</p>
+            </div>
+        </div>
+
+        <div class="work-card">
+            <img src="IMAGES/service 3.jpeg"
+                 alt="Hybrid vehicle servicing">
+            <div class="work-info">
+                <h3>Hybrid Services</h3>
+                <p>Hybrid system inspection and care.</p>
+            </div>
+        </div>
+
+             <div class="work-card">
+            <img src="IMAGES/service 5.jpeg"
+                 alt="Hybrid vehicle servicing">
+            <div class="work-info">
+                <h3> Air Condition (AC) Repair & Gas Refill</h3>
+                <p>AC not cooling? We do leak test, compressor repair,
+                     gas refill and cabin filter service.</p>
+            </div>
+        </div>
+           <div class="work-card">
+            <img src="IMAGES/pure s 1.jpeg"
+                 alt="Hybrid vehicle servicing">
+            <div class="work-info">
+                <h3>Our Engineers</h3>
+                <p> Major & Minor Service (Preventive Maintenance)</p>
+            </div>
+        </div>
+
+            <div class="work-card">
+            <img src="IMAGES/PRECISION.jpeg"
+                 alt="Hybrid vehicle servicing">
+            <div class="work-info">
+                <h3>Bodywork, Welding & Fabrication</h3>
+                <p>Accident repair support, chassis welding</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CUSTOMER BOOKING SECTION -->
+<section class="booking-section" id="booking">
+
+    <div class="booking-heading">
+        <p class="section-label">BOOK AN APPOINTMENT</p>
+        <h2>Let's Get Your Vehicle Running Right</h2>
+        <p>
+            Tell us about your vehicle and the service you need.
+            Our team will follow up to discuss your appointment.
+        </p>
+    </div>
+
+    <div class="booking-layout">
+
+        <!-- BOOKING INFORMATION -->
+        <div class="booking-info">
+            <p class="booking-eyebrow">BRAMIC MOTORS</p>
+            <h3>Expert Care for Every Journey</h3>
+            <p>
+                From computer diagnostics to engine repairs and
+                hybrid vehicle support, tell us what your vehicle needs.
+            </p>
+
+            <div class="booking-benefit">
+                <span class="benefit-number">01</span>
+                <div>
+                    <h4>Choose Your Service</h4>
+                    <p>Select the automotive service you need.</p>
+                </div>
+            </div>
+
+            <div class="booking-benefit">
+                <span class="benefit-number">02</span>
+                <div>
+                    <h4>Tell Us About Your Vehicle</h4>
+                    <p>Include the model and the problem you're experiencing.</p>
+                </div>
+            </div>
+
+            <div class="booking-benefit">
+                <span class="benefit-number">03</span>
+                <div>
+                    <h4>Confirm With Our Team</h4>
+                    <p>We'll discuss availability before your appointment is confirmed.</p>
+                </div>
+            </div>
+        </div>
+
+         
+        <form class="booking-form" id="booking-form">
+
+            <div class="form-title">
+                <h3>Request an Appointment</h3>
+                <p>Fill in the details below.</p>
+            </div>
+
+            <div class="form-grid">
+
+                <div class="form-group">
+                    <label for="customer-name">Full Name *</label>
+                    <input
+                        type="text"
+                        id="customer-name"
+                        name="customerName"
+                        placeholder="Enter your full name"
+                        autocomplete="name"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="customer-phone">Phone Number *</label>
+                    <input
+                        type="tel"
+                        id="customer-phone"
+                        name="customerPhone"
+                        placeholder="e.g. 0712 345 678"
+                        autocomplete="tel"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="vehicle-make">Vehicle Make *</label>
+                    <input
+                        type="text"
+                        id="vehicle-make"
+                        name="vehicleMake"
+                        placeholder="e.g. Toyota"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="vehicle-model">Vehicle Model *</label>
+                    <input
+                        type="text"
+                        id="vehicle-model"
+                        name="vehicleModel"
+                        placeholder="e.g. Prius, Axio, Harrier"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="booking-service">Service Required *</label>
+                    <select id="booking-service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option>Computer Diagnosis & Auto Electrical</option>
+                        <option>Engine Repair & Overhaul</option>
+                        <option>Hybrid Battery & EV Support</option>
+                        <option>Gearbox & Transmission</option>
+                        <option>Brakes & Suspension</option>
+                        <option>ECU & Key Programming</option>
+                        <option>Air Conditioning Repair</option>
+                        <option>Major & Minor Servicing</option>
+                        <option>Bodywork, Welding & Fabrication</option>
+                        <option>Mobile Rescue & Emergency Help</option>
+                        <option>Other / Not Sure</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="booking-location">Your Location *</label>
+                    <input
+                        type="text"
+                        id="booking-location"
+                        name="location"
+                        placeholder="e.g. Nairobi, Westlands"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="booking-date">Preferred Date *</label>
+                    <input
+                        type="date"
+                        id="booking-date"
+                        name="bookingDate"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="booking-time">Preferred Time *</label>
+                    <select id="booking-time" name="bookingTime" required>
+                        <option value="">Select a time</option>
+                        <option value="8:00 AM">8:00 AM</option>
+                        <option value="9:00 AM">9:00 AM</option>
+                        <option value="10:00 AM">10:00 AM</option>
+                        <option value="11:00 AM">11:00 AM</option>
+                        <option value="12:00 PM">12:00 PM</option>
+                        <option value="1:00 PM">1:00 PM</option>
+                        <option value="2:00 PM">2:00 PM</option>
+                        <option value="3:00 PM">3:00 PM</option>
+                        <option value="4:00 PM">4:00 PM</option>
+                    </select>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="vehicle-problem">Describe the Problem</label>
+                    <textarea
+                        id="vehicle-problem"
+                        name="vehicleProblem"
+                        rows="4"
+                        placeholder="Describe any warning lights, unusual sounds, or other issues."></textarea>
+                </div>
+
+            </div>
+
+            <p class="booking-notice">
+                Your preferred date and time are requests, not a confirmed
+                appointment. Our team will confirm availability with you.
+            </p>
+
+            <button type="submit" class="booking-submit">
+                Send Booking Request via WhatsApp
+            </button>
+
+            <p class="booking-status" id="booking-status" role="status"
+               aria-live="polite"></p>
+
+        </form>
+
+    </div>
+</section>
+
+<!-- CONTACT SECTION: DIRECT WHATSAPP CONTACT -->
+
+<section class="contact-section" id="contact">
+    <div class="contact-heading">
+        <p class="section-label">CONTACT US</p>
+        <h2>Get in Touch with BRAMIC MOTORS</h2>
+        <p>
+            Need vehicle repairs, diagnostics, or servicing?
+            Contact our team directly on WhatsApp.
+        </p>
+    </div>
+
+    <div class="contact-whatsapp-card">
+        <h3>How Can We Help You?</h3>
+        <p>
+            Chat with us about our automotive services, ask a question,
+            or discuss your vehicle's problem.
+        </p>
+
+        <a
+            href="https://wa.me/254736001384?text=Hello%20BRAMIC%20MOTORS%2C%20I%20would%20like%20to%20enquire%20about%20your%20services."
+            class="whatsapp-button"
+            target="_blank"
+            rel="noopener noreferrer">
+            Chat with Us on WhatsApp
+        </a>
+
+        <div class="contact-details">
+            <p><strong>Phone:</strong>
+                <a href="tel:+254736001384">254736 001384</a>
+            </p>
+            <p><strong>Location:</strong>
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Utawala%2C+Kenya"
+                    target="_blank"
+                    rel="noopener noreferrer">Utawala, Kenya</a>
+            </p>
+            <p><strong>Opening Hours:</strong> Monday–Saturday, 8:00 AM–7:00 PM</p>
+            <p><strong>Sunday:</strong> Closed</p>
+        </div>
+</section>
+
+
+<!-- About Us Section -->
+<section class="about" id="about">
+
+    <div class="about-content">
+
+        <p class="about-label">ABOUT BRAMIC MOTORS</p>
+
+        <h2>
+            Driven by Precision.
+            <span>Built on Trust.</span>
+        </h2>
+
+        <p class="about-description">
+            At BRAMIC MOTORS, we focus on professional automotive
+            diagnosis, maintenance and repair solutions. Our goal
+            is to help customers understand their vehicle problems
+            and make informed repair decisions.
+        </p>
+
+        <p class="about-description">
+            From computer diagnostics and engine repairs to
+            hybrid systems and electrical troubleshooting, we aim
+            to deliver careful workmanship and reliable service.
+        </p>
+
+        
+    </div>
+
+    <div class="about-highlight">
+
+        <div class="Get in touch with bramic motors"></div>
+
+        <h3>Precision in Every Repair</h3>
+
+        <p>
+            Professional automotive care with attention
+            to detail at every step.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <a href="#home" class="footer-logo">
+        BRAMIC <span>MOTORS</span>
+    </a>
+
+    <p>
+        Professional automotive diagnosis, repair and servicing.
+    </p>
+
+   
+
+    <p class="copyright">
+        &copy; <span id="current-year"></span> Bramic Motors.
+        All rights reserved.
+    </p>
+</footer>
+<script src="script.js" defer></script>
+
+</body>
+
+</body>
+</html>
